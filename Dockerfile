@@ -9,8 +9,7 @@ RUN \
             gearman-tools \
             git \
             php5-cli \
-            supervisor
-    && \
+            supervisor && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
